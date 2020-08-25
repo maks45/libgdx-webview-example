@@ -19,10 +19,6 @@ public class AndroidLauncher extends FragmentActivity implements AndroidFragment
 				.beginTransaction()
 				.replace(R.id.fragmentRoot, fragment)
 				.commit();
-		getSupportFragmentManager()
-				.beginTransaction()
-				.replace(R.id.fragmentRoot, blankFragment)
-				.commit();
 
 	}
 
